@@ -19,8 +19,7 @@ private:
     void performCalculation();
     QLineEdit *display;
     QGridLayout *layout;
-    int val, buffer;
-
+    int completedCalcFlag;
 
 private slots:
     void onDigitButtonClicked();
